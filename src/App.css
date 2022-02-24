@@ -1,0 +1,58 @@
+.global {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.contenLogin {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: 50px;
+  height: 200px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  border: thin solid rgba(0, 0, 0, 0.665);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  justify-content: end;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.divInputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 5px;
+}
+
+button:hover {
+  background-color: rgba(128, 128, 128, 0.713);
+  transition: 3ms;
+}

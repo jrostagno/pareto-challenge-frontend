@@ -1,0 +1,70 @@
+.content {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  /* width: 400px; */
+
+  justify-content: center;
+}
+
+.innerContent {
+  padding: 60px;
+  width: 480px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: thin solid rgba(0, 0, 0, 0.665);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.inputDivs {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+}
+
+select {
+  width: 207.97px;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  width: 200px;
+  border-radius: 3px;
+}
+label {
+  font-size: x-large;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  height: 32.5px;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.logout {
+  width: 150px;
+  position: absolute;
+
+  left: 0;
+  top: 0;
+  margin-left: 30px;
+}
